@@ -1,0 +1,59 @@
+.crc-simulador {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  color: #00796b;
+}
+
+.grupo-entrada {
+  margin: 15px 0;
+}
+
+.grupo-entrada label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.grupo-entrada input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.grupo-botones {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.grupo-botones button {
+  background-color: #00796b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.grupo-botones button:hover {
+  background-color: #004d40;
+}
+
+.resultado {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.resultado p {
+  margin: 5px 0;
+}
