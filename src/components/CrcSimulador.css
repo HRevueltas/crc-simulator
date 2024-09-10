@@ -34,8 +34,8 @@ h1 {
   margin: 20px 0;
 }
 
-.grupo-botones button {
-  background-color: #00796b;
+.grupo-botones button:nth-child(1) {
+  background-color: #007906;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -43,8 +43,31 @@ h1 {
   cursor: pointer;
 }
 
+.grupo-botones button:nth-child(2) {
+  background-color: #2196f3;
+
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.grupo-botones button:nth-child(3) {
+  background-color: #f44336;
+
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
 .grupo-botones button:hover {
-  background-color: #004d40;
+  /* background-color: ; */
+  /* opacity: .8; */
+  filter: brightness(.8);
 }
 
 .resultado {
@@ -56,4 +79,6 @@ h1 {
 
 .resultado p {
   margin: 5px 0;
+  display: flex;
+  
 }

@@ -5,6 +5,7 @@ import { Simulador } from './SImulador'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Simulador />
+
+    <Simulador />     
   </StrictMode>,
 )
